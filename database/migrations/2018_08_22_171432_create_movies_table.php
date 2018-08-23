@@ -18,9 +18,7 @@ class CreateMoviesTable extends Migration
             $table->integer('actress_id')->unsigned();
             $table->foreign('actress_id')->references('id')->on('actresses');
             $table->string('name');
-            $table->string('poster');
-            $table->timestamps();
-        });
+            $table->string('poster');        });
     }
 
     /**
