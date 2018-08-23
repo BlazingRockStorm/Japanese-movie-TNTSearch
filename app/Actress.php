@@ -9,7 +9,7 @@ class Actress extends Model
     protected $table='actresses';
     public $timestamps = false;
 
-    public function movies
+    public function movies()
     {
     	return $this->hasMany('App\Movie');
     }

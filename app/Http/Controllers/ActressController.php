@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Actress;
 
 class ActressController extends Controller
 {
@@ -13,7 +14,7 @@ class ActressController extends Controller
      */
     public function index()
     {
-        //
+        $actresses=Actress::all();
     }
 
     /**
@@ -45,7 +46,8 @@ class ActressController extends Controller
      */
     public function show($id)
     {
-        //
+        $actress=Actress::find($id);
+        // dd($actress);
     }
 
     /**
