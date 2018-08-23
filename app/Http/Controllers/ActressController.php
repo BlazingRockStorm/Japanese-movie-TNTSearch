@@ -15,6 +15,7 @@ class ActressController extends Controller
     public function index()
     {
         $actresses=Actress::all();
+        return view('actresses.index',compact('actresses'));
     }
 
     /**
@@ -48,6 +49,7 @@ class ActressController extends Controller
     {
         $actress=Actress::find($id);
         // dd($actress);
+        return view('actresses.show',compact('actress'));
     }
 
     /**
