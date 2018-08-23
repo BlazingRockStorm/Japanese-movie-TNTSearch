@@ -11,6 +11,6 @@ class Movie extends Model
 
     public function actress()
     {
-    	return $this->belongsTo('App\Movie');
+    	return $this->belongsTo('App\Actress');
     }    
 }

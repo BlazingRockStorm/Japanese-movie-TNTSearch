@@ -14,7 +14,7 @@ class MoviesTableSeeder extends Seeder
         
     	$movies=[
     		['name'=>'Bakuryuu Sentai Abaranger','actress_id'=>1,'poster'=>'abaranger.jpg'],
-    		['name'=>'GoGo Sentai Boukenger','actress_id'=>2,'poster'=>'boukanger.jpg'],
+    		['name'=>'GoGo Sentai Boukenger','actress_id'=>2,'poster'=>'boukenger.jpg'],
     		['name'=>'Hyakujuu Sentai Gaoranger','actress_id'=>3,'poster'=>'gaoranger.jpg'],
     		['name'=>'Juken Sentai Gekiranger','actress_id'=>4,'poster'=>'gekiranger.jpg'],
     		['name'=>'Ninpuu Sentai Hurricaneger','actress_id'=>5,'poster'=>'hurricanger.jpg'],
