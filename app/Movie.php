@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Movie extends Model
 {
     protected $table='movies';
+    public $timestamps = false;
 
     public function actress
     {
