@@ -16,6 +16,7 @@ class CreateActressesTable extends Migration
         Schema::create('actresses', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->string('picture');
             $table->timestamps();
         });
     }
