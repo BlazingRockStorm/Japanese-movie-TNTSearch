@@ -83,4 +83,10 @@ class MovieController extends Controller
     {
         //
     }
+
+    public function search(Request $request)
+    {
+        $movies=Movie::search($request->get('search'))->get();
+        return view('movies.index',compact('movies'));
+    }
 }

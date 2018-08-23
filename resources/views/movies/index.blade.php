@@ -4,7 +4,7 @@
 	<title>Movies</title>
 </head>
 <body>
-	<form>
+	<form method="GET" action="{{action('MovieController@search')}}">
 		<input type="text" name="search" placeholder="Tìm phim">
 		<input type="submit">
 	</form>
